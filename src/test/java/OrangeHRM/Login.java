@@ -62,6 +62,7 @@ public class Login extends BaseClass
     		             File login= ts.getScreenshotAs(OutputType.FILE);
     		          File trg= new File(screenshots+currentDate+"_"+"LoginPass.png");
     		          FileUtils.copyFile(login,trg);
+    		          System.out.println("Checking the code");
              		}
              		
     		 }
