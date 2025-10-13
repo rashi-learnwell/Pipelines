@@ -63,6 +63,7 @@ public class Login extends BaseClass
     		          File trg= new File(screenshots+currentDate+"_"+"LoginPass.png");
     		          FileUtils.copyFile(login,trg);
     		          System.out.println("Checking the code");
+    		          System.out.println("Checking the code");
              		}
              		
     		 }
