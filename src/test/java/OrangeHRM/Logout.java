@@ -1,10 +1,12 @@
 package OrangeHRM;
 
-public class Logout 
+public class Logout extends BaseClass
 {
-
-	void print()
+	Elements ele;
+	void logout()
 	{
-		System.out.println("Test");
-	}
+		ele= new Elements();
+		driver.findElement(ele.profilepic).click();
+}
+
 }

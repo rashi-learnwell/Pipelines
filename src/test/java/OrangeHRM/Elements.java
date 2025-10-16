@@ -13,7 +13,9 @@ public class Elements
 	By login=By.xpath("//button[@type='submit']");
 	
 	
+	// logout
 	
+	By profilepic=By.xpath("//img[@class='oxd-userdropdown-img']");
 	
 
 }
